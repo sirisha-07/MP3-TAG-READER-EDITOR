@@ -30,5 +30,5 @@ This project showcases file I/O, byte-level parsing, and structured metadata han
 ## How to Compile & Run
 
 ```bash
-gcc main.c id3v1_parser.c id3v2_parser.c utils.c 
+gcc main.c id3_writer.c id3_utils.c id3_reader.c
 ./a.out song.mp3
